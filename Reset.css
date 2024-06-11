@@ -1,0 +1,126 @@
+
+
+
+/*Corpo do html/Html Body*/
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+h1{
+    color: #D70040;
+    text-align: center;
+    font-family: Minhafonte;
+    font-size: 90px;
+    padding: 0;
+    margin: 0;
+
+    
+}
+p{
+    color: #D70040;
+}
+li{
+    color: #D70040;
+}
+
+section{
+    display: grid;
+    place-items: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+
+/*Links e imagens/Links and images*/
+
+.introducao{
+color: white;
+text-align: center;
+padding: 0;
+position: relative;
+right: -500px;
+font-family: Minhafonte;
+text-decoration: none
+
+}
+
+.movie{
+color: white;
+text-align: center;
+position: relative;
+right: -550px;
+font-family: Minhafonte;
+text-decoration: none;
+}
+
+.contact{
+color: white;
+text-align: center;
+position: relative;
+right:-600px;
+font-family: Minhafonte;
+text-decoration: none;
+}
+
+.jason{
+color: #D70040;
+text-align: center;
+font-family: Fonteassustador;
+font-size: 200px;
+padding: 0;
+margin: 0;
+}
+
+.Pinhead{
+color: #D70040;
+text-align: center;
+font-size: 200px;
+font-family: Fonteassustador;
+margin: 0;
+padding: 0;
+}
+
+.panico{
+    width: 500px;
+    position: relative;
+    right: -400px;
+    border: #D70040 solid 3px;
+}
+
+.textpanico{
+    text-align: center;
+}
+
+.namepanico{
+    background-color: #D70040;
+    border: #D70040 solid 10px;
+    width: 100px;
+    text-align: center;
+    position: relative;
+    right: -580px;
+    top: 5px;
+}
+
+.namepanicotext{
+padding: 0;
+margin: 0;
+color: black;
+font-family: Minhafonte;
+}
+/* Fontes */
+
+@font-face {
+font-family: Fonteassustador;
+src: url(MONSP___.TTF);
+}
+
+@font-face {
+font-family: Minhafonte;
+src: url(HororDramaDemoRegular.ttf);
+}
+
+@font-face {
+    font-family: Minhafonte2;
+    src: url(EasyHorror.ttf);
+}
